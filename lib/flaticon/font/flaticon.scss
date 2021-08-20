@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?547c72a58afe4b5e77d6617d9e326483") format("truetype"),
+url("./flaticon.woff?547c72a58afe4b5e77d6617d9e326483") format("woff"),
+url("./flaticon.woff2?547c72a58afe4b5e77d6617d9e326483") format("woff2"),
+url("./flaticon.eot?547c72a58afe4b5e77d6617d9e326483#iefix") format("embedded-opentype"),
+url("./flaticon.svg?547c72a58afe4b5e77d6617d9e326483#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "objetivo": "\f101",
+    "mision": "\f102",
+    "pasion": "\f103",
+    "aim": "\f104",
+    "comunicacion": "\f105",
+    "sonrisa": "\f106",
+);
+
+.flaticon-objetivo:before {
+    content: map-get($flaticon-map, "objetivo");
+}
+.flaticon-mision:before {
+    content: map-get($flaticon-map, "mision");
+}
+.flaticon-pasion:before {
+    content: map-get($flaticon-map, "pasion");
+}
+.flaticon-aim:before {
+    content: map-get($flaticon-map, "aim");
+}
+.flaticon-comunicacion:before {
+    content: map-get($flaticon-map, "comunicacion");
+}
+.flaticon-sonrisa:before {
+    content: map-get($flaticon-map, "sonrisa");
+}

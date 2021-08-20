@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?547c72a58afe4b5e77d6617d9e326483") format("truetype"),
+url("./flaticon.woff?547c72a58afe4b5e77d6617d9e326483") format("woff"),
+url("./flaticon.woff2?547c72a58afe4b5e77d6617d9e326483") format("woff2"),
+url("./flaticon.eot?547c72a58afe4b5e77d6617d9e326483#iefix") format("embedded-opentype"),
+url("./flaticon.svg?547c72a58afe4b5e77d6617d9e326483#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-objetivo:before {
+    content: "\f101";
+}
+.flaticon-mision:before {
+    content: "\f102";
+}
+.flaticon-pasion:before {
+    content: "\f103";
+}
+.flaticon-aim:before {
+    content: "\f104";
+}
+.flaticon-comunicacion:before {
+    content: "\f105";
+}
+.flaticon-sonrisa:before {
+    content: "\f106";
+}
